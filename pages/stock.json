@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mesa de luz",
+    "tipo": "Lank",
+    "desc": "Cajú",
+    "precio": 12000,
+    "img": "../media/lank-01.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Rack de TV",
+    "tipo": "Lank",
+    "desc": "Cajú",
+    "precio": 24000,
+    "img": "../media/lank-02.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Rack de TV grande",
+    "tipo": "Lank",
+    "desc": "Cajú",
+    "precio": 30000,
+    "img": "../media/lank-03.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Cómoda",
+    "tipo": "Lank",
+    "desc": "Cajú",
+    "precio": 36000,
+    "img": "../media/lank-04.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Mesa de luz",
+    "tipo": "Stil",
+    "desc": "Carvalho Mezzo",
+    "precio": 16000,
+    "img": "../media/stil-01.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Rack de TV",
+    "tipo": "Stil",
+    "desc": "Carvalho Mezzo",
+    "precio": 28000,
+    "img": "../media/stil-02.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 7,
+    "nombre": "Rack de TV grande",
+    "tipo": "Stil",
+    "desc": "Carvalho Mezzo",
+    "precio": 34000,
+    "img": "../media/stil-03.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 8,
+    "nombre": "Cómoda",
+    "tipo": "Stil",
+    "desc": "Carvalho Mezzo",
+    "precio": 40000,
+    "img": "../media/stil-04.jpg",
+    "cantidad": 1
+  }
+]

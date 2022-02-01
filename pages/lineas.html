@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="description" content="Fabricación y venta de mobiliario para el hogar.">
+  	<meta name="keywords" content="Muebles, Mobiliario, Hogar, Melamina, Lank, Stil, Gora">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lineas</title>
+	<script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="../css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+            <div id="comprar" style="display: flex; justify-content: flex-end;"></div>
+        </div>
+    </div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	  <div class="container-fluid">
+	  	<a href="../index.html"><img src="../media/icon-02.png" alt="Isotipo GORA" width="35" height="35" class="d-inline-block align-text-top"></a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+	        </li>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" href="lineas.html">Lineas</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="nosotros.html">Nosotros</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="../index.html#contacto">Contacto</a>
+	        </li>
+			<li class="nav-item">
+				<a class="nav-link" href="tienda.html">Tienda</a>
+			</li>
+			<li class="nav-item">
+				<button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito"> 0</span></button>
+			</li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<section class="lineas">
+		<div class="row row-cols-1 row-cols-md-2 g-4 m-2">
+		  <div class="col animate__animated animate__fadeInLeft">
+			<div class="card h-100 shadow p-3 mb-1 bg-light rounded">
+			  <img src="../media/home-02.jpg" class="card-img-top" alt="Linea de muebles LANK completa">
+			  <div class="card-body">
+				<h5 class="card-title text-secondary">Lank</h5>
+				<div class="card-grid-container">
+					   <div class="card-grid-item1">
+						<img class="card-icons" src="../media/icon-15.png" alt="Icono check">
+					</div>
+					<div class="card-grid-item2">
+						<img class="card-icons" src="../media/icon-16.png" alt="Icono dinero">
+					</div>
+					<div class="card-grid-item3">
+						<img class="card-icons" src="../media/icon-17.png" alt="Icono colores">
+					</div>
+					<div class="card-grid-item4">
+						<span class="full-text"><p class="card-text">Conocé LANK, nuestra línea más funcional, dinámica y cargada de energía que caracteriza a la juventud.</p></span>
+						<span class="short-text"><p class="card-text">Funcional, dinámica y joven.</p></span>
+					</div>
+					<div class="card-grid-item5">
+						<span class="full-text"><p class="card-text">Es perfecta para transformar tu casa con una combinación de calidad y simpleza, sin preocuparte por tu bolsillo.</p></span>
+						<span class="short-text"><p class="card-text">Calidad y simpleza, al mejor precio.</p></span>
+					</div>
+					<div class="card-grid-item6">
+						<span class="full-text"><p class="card-text">Combina la calidez de los colores inspirados en la madera con la luminosidad del blanco para dar brillo a tus espacios.</p></span>
+						<span class="short-text"><p class="card-text">Madera y blanco para dar brillo.</p></span>
+					</div>
+				</div>
+				<div class="d-grid gap-2 d-md-flex justify-content-md-end m-2">
+				  <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalLank">Ver línea</button>
+				</div>
+				<div>
+					<a class="d-grid gap-2 d-md-flex justify-content-md-end m-2" href="tienda.html"><button class="btn btn-primary" type="button">Ir a tienda</button></a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	
+		  <div class="col animate__animated animate__fadeInRight web">
+			<div class="card h-100 shadow p-3 mb-1 bg-light rounded">
+			  <img src="../media/home-03.jpg" class="card-img-top" alt="Linea de muebles STIL completa">
+			  <div class="card-body">
+				<h5 class="card-title text-secondary">Stil</h5>
+				<div class="card-grid-container">
+					   <div class="card-grid-item1">
+						<img class="card-icons" src="../media/icon-15.png" alt="Icono check">
+					</div>
+					<div class="card-grid-item2">
+						<img class="card-icons" src="../media/icon-16.png" alt="Icono dinero">
+					</div>
+					<div class="card-grid-item3">
+						<img class="card-icons" src="../media/icon-17.png" alt="Icono colores">
+					</div>
+					<div class="card-grid-item4">
+						<span class="full-text"><p class="card-text">Te presentamos a STIL, nuestra línea más elegante, sofisticada y sólida.</p></span>
+						<span class="short-text"><p class="card-text">Elegante, sofisticada y sólida.</p></span>
+					</div>
+					<div class="card-grid-item5">
+						<span class="full-text"><p class="card-text">Es ideal para crear la mejor versión de tu casa con modularidad y estilo, sin gastar de más.</p></span>
+						<span class="short-text"><p class="card-text">Modularidad y estilo, sin gastar de más.</p></span>
+					</div>
+					<div class="card-grid-item6">
+						<span class="full-text"><p class="card-text">Combina la calidez de los colores inspirados en la madera con la luminosidad del blanco para dar brillo a tus espacios.</p></span>
+						<span class="short-text"><p class="card-text">Madera y blanco para dar brillo.</p></span>
+					</div>
+				</div>
+				<div class="d-grid gap-2 d-md-flex justify-content-md-end m-2">
+				  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStil">Ver línea</button>
+				</div>
+				<div>
+					<a class="d-grid gap-2 d-md-flex justify-content-md-end m-2" href="tienda.html"><button class="btn btn-primary" type="button">Ir a tienda</button></a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <!-- cambio en animacion para version mobile: -->
+		  <div class="col animate__animated animate__fadeInLeft mobile">
+			<div class="card h-100 shadow p-3 mb-1 bg-light rounded">
+			  <img src="../media/home-03.jpg" class="card-img-top" alt="Linea de muebles STIL completa">
+			  <div class="card-body">
+				<h5 class="card-title text-secondary">Stil</h5>
+				<div class="card-grid-container">
+					   <div class="card-grid-item1">
+						<img class="card-icons" src="../media/icon-15.png" alt="Icono check">
+					</div>
+					<div class="card-grid-item2">
+						<img class="card-icons" src="../media/icon-16.png" alt="Icono dinero">
+					</div>
+					<div class="card-grid-item3">
+						<img class="card-icons" src="../media/icon-17.png" alt="Icono colores">
+					</div>
+					<div class="card-grid-item4">
+						<span class="full-text"><p class="card-text">Te presentamos a STIL, nuestra línea más elegante, sofisticada y sólida.</p></span>
+						<span class="short-text"><p class="card-text">Elegante, sofisticada y sólida.</p></span>
+					</div>
+					<div class="card-grid-item5">
+						<span class="full-text"><p class="card-text">Es ideal para crear la mejor versión de tu casa con modularidad y estilo, sin gastar de más.</p></span>
+						<span class="short-text"><p class="card-text">Modularidad y estilo, sin gastar de más.</p></span>
+					</div>
+					<div class="card-grid-item6">
+						<span class="full-text"><p class="card-text">Combina la calidez de los colores inspirados en la madera con la luminosidad del blanco para dar brillo a tus espacios.</p></span>
+						<span class="short-text"><p class="card-text">Madera y blanco para dar brillo.</p></span>
+					</div>
+				</div>
+				<div class="d-grid gap-2 d-md-flex justify-content-md-end m-2">
+					<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStil">Ver línea</button>
+				</div>
+				<div>
+					<a class="d-grid gap-2 d-md-flex justify-content-md-end m-2" href="tienda.html"><button class="btn btn-primary" type="button">Ir a tienda</button></a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	
+		<!-- Modal Lank-->
+		<div class="modal fade" id="modalLank" tabindex="-1" aria-labelledby="modalLabelLank" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="modalLabelLank">Lank</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+				
+				<div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+				  </div>
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="../media/lank-01.jpg" class="d-block w-100" alt="Mesa de luz linea LANK">
+					</div>
+					<div class="carousel-item">
+					  <img src="../media/lank-02.jpg" class="d-block w-100" alt="Rack TV linea LANK">
+					</div>
+					<div class="carousel-item">
+					  <img src="../media/lank-03.jpg" class="d-block w-100" alt="Rack TV grande linea LANK">
+					</div>
+					<div class="carousel-item">
+					  <img src="../media/lank-04.jpg" class="d-block w-100" alt="Comoda linea LANK">
+					</div>
+					<div class="carousel-item">
+					  <img src="../media/lank-05.jpg" class="d-block w-100" alt="Colgantes linea LANK">
+					</div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+	
+			  </div>
+			</div>
+		  </div>
+		</div>
+	
+		<!-- Modal Stil-->
+		<div class="modal fade" id="modalStil" tabindex="-1" aria-labelledby="modalLabelStil" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="modalLabelStil">Stil</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+				
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+				  </div>
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="../media/stil-01.jpg" class="d-block w-100" alt="Mesa de luz linea STIL">
+					</div>
+					<div class="carousel-item">
+					  <img src="../media/stil-02.jpg" class="d-block w-100" alt="Rack TV linea STIL">
+					</div>
+					<div class="carousel-item">
+					  <img src="../media/stil-03.jpg" class="d-block w-100" alt="Rack TV grande linea STIL">
+					</div>
+					<div class="carousel-item">
+					  <img src="../media/stil-04.jpg" class="d-block w-100" alt="Comoda linea STIL">
+					</div>
+					<div class="carousel-item">
+					  <img src="../media/stil-05.jpg" class="d-block w-100" alt="Colgantes linea STIL">
+					</div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+	
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</section>
+
+	    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+	      <li class="ms-3"><a href="https://www.facebook.com/goramuebles" target="_blank"><img class="icon-footer" src="../media/icon-13.png" alt="Isotipo facebook"></a></li>
+	      <li class="ms-3"><a href="https://www.instagram.com/goramuebles/" target="_blank"><img class="icon-footer" src="../media/icon-14.png" alt="Isotipo instagram"><use xlink:href="#instagram"/></svg></a></li>
+	    </ul>
+	  </footer>
+	</div>
+
+	<script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../modal.js"></script>
+
+</body>
+
+</html>

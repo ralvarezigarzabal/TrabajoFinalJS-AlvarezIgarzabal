@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="description" content="Fabricación y venta de mobiliario para el hogar.">
+  	<meta name="keywords" content="Muebles, Mobiliario, Hogar, Melamina, Lank, Stil, Gora">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>page not found</title>
+	<script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+            <div id="comprar" style="display: flex; justify-content: flex-end;"></div>
+        </div>
+    </div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	  <div class="container-fluid">
+	  	<a href="index.html"><img src="media/icon-02.png" alt="Isotipo GORA" width="35" height="35" class="d-inline-block align-text-top"></a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+	        </li>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="pages/lineas.html">Lineas</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="index.html #contacto">Contacto</a>
+	        </li>
+			<li class="nav-item">
+				<a class="nav-link" href="pages/tienda.html">Tienda</a>
+			</li>
+			<li class="nav-item">
+				<button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito"> 0</span></button>
+			</li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<section class="notFound">
+		<div class="notFoundContainer">
+			<img class="notFoundImg animate__animated animate__bounce" src="media/404-01.png" alt="Page not found">
+		</div>
+		<div class="notFoundContainer">
+			<a class="btn btn-primary" type="button" href="index.html">Ir a Inicio</a>
+		</div>
+    </section>
+    
+	
+	<div class="container">
+	  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+	    <div class="col-md-4 d-flex align-items-center">
+	        <img class="icon-footer" src="media/icon-12.png" alt="Isotipo GORA gris"></a>
+	      <span class="text-light">&copy; GORA Muebles</span>
+	    </div>
+
+	    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+	      <li class="ms-3"><a href="https://www.facebook.com/goramuebles" target="_blank"><img class="icon-footer" src="media/icon-13.png" alt="Isotipo facebook"></a></li>
+	      <li class="ms-3"><a href="https://www.instagram.com/goramuebles/" target="_blank"><img class="icon-footer" src="media/icon-14.png" alt="Isotipo instagram"><use xlink:href="#instagram"/></svg></a></li>
+	    </ul>
+	  </footer>
+	</div>
+
+	<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="modal.js"></script>
+
+</body>
+
+</html>
